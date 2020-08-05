@@ -1,0 +1,114 @@
+.bg-img{
+    height: 100vh;
+    object-position: bottom;
+    object-fit: cover;
+    width: 100%;
+}
+.main-container{
+    position: absolute;
+    top:0
+}
+.main-container ul li{
+    display: inline-block;
+    padding: 0.45rem;
+    border-bottom: 1px solid black;
+
+}
+.main-container ul li a{
+    color: black;
+    text-decoration: none;
+}
+.main-container ul li a:hover{
+    color: #fffffe;
+}
+.img-icon{
+    height: auto;
+    width: 100%;
+    object-fit: contain;
+}
+.clr1{
+    color: white;
+}
+.clr2{
+    color: rgb(194, 102, 27);
+}
+.clr3{
+    color: rgb(94, 91, 91);
+}
+.btn-sty{
+    background-color:rgb(250, 159, 56);
+    color: white;
+    border-radius: 20px;
+}
+.font-sty{
+    font-size: 3.5rem;
+    font-weight: bolder;
+}
+.box-shd{
+    box-shadow: 0.1rem 0.1rem 0.5rem;
+}
+.bg-img2{
+    min-height:50vh;
+    object-fit: fill;
+    object-position: bottom;
+}
+.section3{
+    position: relative;
+}
+.inner{
+    position: absolute;
+    top:0;
+}
+.inner1{
+    position: absolute;
+    left: 0;
+    filter: invert(1);
+}
+.inner2{
+    position: absolute;
+    right: 0;
+    filter: invert(1);
+}
+.footer{
+    background-color: rgb(255, 197, 130);
+    min-height:55vh;
+    width: 100%;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    color: rgb(194, 102, 27);
+  }
+  
+  .fa-twitter {
+    color:rgb(194, 102, 27);
+  }
+  
+  .fa-instagram {
+    color: rgb(194, 102, 27);
+  }
+  
+  .fa-pinterest {
+    color: rgb(194, 102, 27);
+  }
+@media only screen and (max-width: 767px) {
+    .img-icon{
+        height: auto;
+        width: auto;
+    }
+    .font-sty{
+        font-size: 2.5em;
+        font-weight: bolder;
+    }
+  }
